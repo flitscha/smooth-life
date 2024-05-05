@@ -9,7 +9,6 @@ public class KL implements KeyListener {
 	
     @Override
     public void keyTyped(KeyEvent e) {
-        // Implementiere Aktionen für das keyTyped-Event
     }
 
     @Override
@@ -24,7 +23,6 @@ public class KL implements KeyListener {
 
     
     public void update() {
-        // Aktualisiere keysBefore, um den Status der vorherigen Frame-Tasten zu speichern
         System.arraycopy(keys, 0, keysBefore, 0, keys.length);
     }
     
